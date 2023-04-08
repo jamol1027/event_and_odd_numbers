@@ -3,6 +3,6 @@
 
 #Print the number of even digits in the variable "var_int".
 
-a = 5467
-b = 4-(a//1000%2+a//100%2+a//10%2+a%2)
+a = 2846
+b = (a//1000+1)%2+(a//100%10+1)%2+(a//10%10+1)%2+(a%10+1)%2
 print(b)
